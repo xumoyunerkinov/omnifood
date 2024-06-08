@@ -1,0 +1,288 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 1280px;
+    margin-bottom: 96px;
+}
+
+.header{
+    margin: 0;
+    padding: 27px 37px;
+   
+
+    .header__container{
+        max-width: 1440px;
+        padding: 0 48px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        .header__logo{
+            display: flex;
+            align-items: center;
+            font-size: 30px;
+            img{
+                width: 166px;
+                height: 22px;
+              }
+        }
+        .header__navbar{
+            display: flex;
+            width: 60%;
+            align-items: center;
+            justify-content: space-between;
+            .navbar__item1{
+                background-color: chocolate;
+                border-radius: 5px;
+                padding: 12px 24px;
+                font-size: 25px;
+                color: white;
+               
+                
+            }
+            .navbar__item{
+                color: #333;
+                font-size: 18px;
+                font-weight: 600;
+            }
+         
+          }
+     }
+}
+.banner{
+    padding: 48px 0 96px;
+    margin-bottom: 62px;
+    .container__banner{
+        width: 1300px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        .banner__info{
+            .banner__title{
+                max-width: 583px;
+                font-weight: 700;
+                font-size: 52px;
+                letter-spacing: 1.5px;
+                color: var(--font-color);
+                margin-bottom: 32px;
+            }
+            .banner__info_1{
+                max-width: 583px;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 160%;
+                color: #555;
+                 margin-bottom: 48px;
+            }
+            .banner__button{
+                display: flex;
+                gap: 48px;
+                margin-bottom: 100px;
+                font-weight: 600;
+                .logo_1{
+                    background-color: white;
+                    width: max-content;
+                    border-radius: 5px;
+                    padding: 16px 32px;
+                    font-size: 20px;
+                }
+                .logo_2{
+                    background-color: chocolate;
+                    width: max-content;
+                    color: white;
+                    border-radius: 5px;
+                    padding: 16px 32px;
+                    font-size: 20px;
+                }
+            }
+            .clients{
+                display: flex;
+                gap: 16px;
+                align-items: center;
+                margin-left: 12px;
+                font-weight: 600;
+               font-size: 18px;
+               line-height: 111%;
+                 .serkul_img{
+                    width: 205px;
+                    height: 48px;
+                    display: flex;
+                    .img_1{
+                        margin-left: -15px;
+                    }
+                }
+                .clints_number{
+                    span{
+                        color:coral;
+                    }
+                   
+                    
+                }
+            }
+        }
+    }
+    
+    
+   
+   
+}
+
+.featured{
+    .featured__cantenir{
+        width: 1300px;
+        margin: 0 auto;
+        text-align: center;
+        .featured__title{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 100%;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #888;
+        }
+        .featured__cards{
+            margin-top: 24px;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 96px;
+        }
+
+    }
+}
+.works{
+    .container{
+    .title{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: var(--btn-bg);
+            margin-bottom: 16px;   
+    }
+    .step{
+        font-weight: 700;
+        font-size: 44px;
+        letter-spacing: 0.02em;
+        color: #555;
+        margin-bottom: 142px;
+    }
+    .cards{
+        .work__card{
+            display: flex;
+            .card_info{
+                max-width: 536px;
+                .card_01{
+                    font-weight: 600;
+                    font-size: 86px;
+                    line-height: 100%;
+                    letter-spacing: 0.01em;
+                    color: #ddd;
+                    margin-bottom: 12px;
+                }
+                .tell{
+                    font-weight: 700;
+                    font-size: 30px;
+                    line-height: 100%;
+                    color: #555;
+                    margin-bottom: 32px;
+                }
+                .Never{
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 178%;
+                    color: #555;
+                }
+                .card_img{
+                    width: 536px;
+                    height: 379px;
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 158px;
+                }
+            }
+            
+        }
+
+        
+    }
+      }
+}
+.meals{
+    .container{
+        .meals_title{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: var(--btn-bg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+        .maeals__omnifood{
+        font-weight: 700;
+        font-size: 44px;
+        }
+        .meals_cards{
+            display: flex;
+            .meals_card{
+                box-shadow: 0 24px 48px 0 rgba(0, 0, 0, 0.08);
+                background: #fff;
+                width: 336px;
+                .meals_img{
+                    border-radius: 11px 11px 0 0;
+                    width: 336px;
+                    height: 224px;
+                    display: flex;
+                    gap: 64px;
+                  
+                   
+                 
+                 }
+                 .meals_card_info{
+                    padding: 48px 32px;
+                    .meals_card_info p{
+                        background-color: green;
+                        font-weight: 600;
+                        font-size: 12px;
+                        text-transform: uppercase;
+                        color: var(--font-color);
+                        border-radius: 5px;
+                        width: max-content;
+                        margin-bottom: 14px;
+                    }
+                    .meals_logo{
+                        font-weight: 600;
+                        font-size: 24px;
+                        line-height: 100%;
+                        color: var(--font-color);
+                        margin-bottom: 35.25px
+                    }
+                    .meals_span{
+                        display: flex;
+                        align-items: center;
+                        column-gap: 16px;
+                        gap: 64px;
+                    }
+                 }
+                 .meals_card{
+                    .meals_card_info{
+                        .meals_p{
+                            display: flex;
+                            gap: 12px;
+                            .meals_box{
+                                
+                            }
+                        }
+                    }
+                 }
+             }
+         }
+       
+    }
+}
