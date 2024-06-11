@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -205,6 +206,8 @@
 }
 .meals .container .meals_cards {
   display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
 }
 .meals .container .meals_cards .meals_card {
   box-shadow: 0 24px 48px 0 rgba(0, 0, 0, 0.08);
@@ -244,7 +247,173 @@
   column-gap: 16px;
   gap: 64px;
 }
-.meals .container .meals_cards .meals_card .meals_card .meals_card_info .meals_p {
+.meals .container .meals_cards .meals_card .meals_card_info .meals_p {
   display: flex;
   gap: 12px;
+}
+.meals .container .meals_cards .meals_card .meals_card_info .meals_p .meals_box {
+  background-color: greenyellow;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--font-color);
+  padding: 2px 5px 2px;
+}
+.meals .container .meals_cards .meals_card .meals_card_info .meals_p .meals_box1 {
+  background-color: yellow;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--font-color);
+  padding: 2px 5px 2px;
+}
+.meals .container .meals_cards .meals_card3 {
+  padding: 0 20px;
+}
+.meals .container .meals_cards .meals_card3 .meals_title3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 120%;
+  color: var(--font-color);
+  margin-bottom: 38px;
+}
+.meals .container .meals_cards .meals_card3 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  list-style: none;
+}
+.meals .container .meals_cards .meals_card3 ul .card3_aytim::before {
+  content: "✔";
+  margin-right: 16px;
+  color: #E67E27;
+}
+.meals .container .meals_see .meals_see1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 111%;
+  color: var(--btn-bg);
+  text-decoration: underline;
+}
+
+.testimonial .container_Testimonials {
+  padding: 0 16px 0 96px;
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.testimonial .container_Testimonials .testimonial__info {
+  width: 600px;
+}
+.testimonial .container_Testimonials .testimonial__info .title .onse1 {
+  font-weight: 700;
+  font-size: 44px;
+  color: #555;
+  width: 600px;
+  margin-bottom: 96px;
+}
+.testimonial .container_Testimonials .testimonial__info .info__cards {
+  display: flex;
+  width: 649px;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  justify-content: space-between;
+}
+.testimonial .container_Testimonials .testimonial__info .info__cards .info__card {
+  width: 260px;
+}
+.testimonial .container_Testimonials .testimonial__info .info__cards .info__card .onse_img_1 {
+  margin-bottom: 12px;
+}
+.testimonial .container_Testimonials .testimonial__info .info__cards .info__card .onse_img_1 .onse_img_logo {
+  width: 260px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  color: #555;
+}
+.testimonial .container_Testimonials .testimonial__info .info__cards .info__card .onse_img_1 .onse_img_logo .onse_img {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  color: #6f6f6f;
+  margin-top: 16px;
+}
+
+.pricing .container {
+  width: 1200px;
+  padding: 82px 0 96px;
+}
+.pricing .container .pricing_logo {
+  font-weight: 700;
+  font-size: 44px;
+  letter-spacing: 0.02em;
+  color: #555;
+  margin-bottom: 83px;
+}
+.pricing .container .princing__info .cards__starter {
+  border: 2px solid var(--main-bg);
+  border-radius: 11px;
+  width: 402px;
+  height: 556px;
+  padding: 46px;
+}
+
+.meal .meal_contenir {
+  border: 3px solid peru;
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+  margin: 0 auto;
+}
+.meal .meal_contenir .meal_info {
+  padding: 48px 64px 64px;
+  width: 760px;
+  box-shadow: 0 24px 48px 0 rgba(0, 0, 0, 0.15);
+  background: linear-gradient(135deg, #eb984e 0%, #e67e22 100%);
+}
+.meal .meal_contenir .meal_info .meal_info_logo {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 100%;
+  color: #45260a;
+  margin-bottom: 32px;
+}
+.meal .meal_contenir .meal_info .meal_logo {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  color: #45260a;
+  margin-bottom: 48px;
+}
+.meal .meal_contenir .meal_info .meal_input {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  align-items: end;
+}
+.meal .meal_contenir .meal_info .meal_input .meal_inpud_name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #45260a;
+  padding: 14px;
+  margin-bottom: 12px;
+}
+.meal .meal_contenir .meal_info .meal_input .meal_input_full {
+  padding: 14px;
+  border-radius: 9px;
+  font-size: 18px;
+  width: 300px;
+  border: none;
+  outline: none;
+  margin-top: 12px;
 }/*# sourceMappingURL=style.css.map */

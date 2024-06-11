@@ -230,6 +230,8 @@
         }
         .meals_cards{
             display: flex;
+            justify-content: space-between;
+            margin-bottom: 48px;
             .meals_card{
                 box-shadow: 0 24px 48px 0 rgba(0, 0, 0, 0.08);
                 background: #fff;
@@ -240,9 +242,6 @@
                     height: 224px;
                     display: flex;
                     gap: 64px;
-                  
-                   
-                 
                  }
                  .meals_card_info{
                     padding: 48px 32px;
@@ -270,19 +269,194 @@
                         gap: 64px;
                     }
                  }
-                 .meals_card{
-                    .meals_card_info{
-                        .meals_p{
-                            display: flex;
-                            gap: 12px;
-                            .meals_box{
-                                
+                 
+             }
+             .meals_card{
+                .meals_card_info{
+                    .meals_p{
+                        display: flex;
+                        gap: 12px;
+                        .meals_box{
+                            
+                            background-color: greenyellow;
+                            font-weight: 600;
+                            font-size: 12px;
+                            line-height: 100%;
+                            letter-spacing: 0.06em;
+                            text-transform: uppercase; 
+                            color: var(--font-color);
+                            padding: 2px 5px 2px;
+                        }
+                        .meals_box1{
+                            background-color: yellow;
+                            font-weight: 600;
+                            font-size: 12px;
+                            line-height: 100%;
+                            letter-spacing: 0.06em;
+                            text-transform: uppercase;
+                            color: var(--font-color);
+                            padding: 2px 5px 2px;
+                        }
+                    }
+                }
+             }
+             .meals_card3{
+                padding: 0 20px;
+                .meals_title3{
+                    font-weight: 700;
+                    font-size: 30px;
+                    line-height: 120%;
+                    color: var(--font-color);
+                    margin-bottom: 38px;
+                }
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 22px; 
+                    list-style: none;
+                    .card3_aytim::before{
+                        content: '✔';
+                        margin-right: 16px;
+                        color: #E67E27;
+                    }
+                }
+             }
+         }
+         .meals_see{
+            .meals_see1{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 111%;
+                color: var(--btn-bg);
+                text-decoration: underline;
+            }
+           
+         
+         }
+         }
+ }
+ .testimonial{
+    .container_Testimonials{
+        padding: 0 16px 0 96px;
+        width: 1280px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        .testimonial__info{
+            width: 600px;
+            .title
+            .onse1{
+                font-weight: 700;
+                font-size: 44px;
+                color: #555;
+                width: 600px;
+                margin-bottom: 96px;
+            }
+            .info__cards{
+                display: flex;
+                width: 649px;
+                flex-wrap: wrap;
+                row-gap: 48px;
+                justify-content: space-between;
+                .info__card{
+                    width: 260px;
+                    .onse_img_1{
+                        margin-bottom:  12px;
+                        .onse_img_logo{
+                            width: 260px;
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 180%;
+                            color: #555;
+                            .onse_img{
+                                font-weight: 400;
+                                font-size: 18px;
+                                line-height: 100%;
+                                color: #6f6f6f;
+                                margin-top: 16px;
                             }
                         }
                     }
-                 }
-             }
-         }
-       
+                }
+            }
+        }
     }
-}
+ }
+ .pricing{
+        .container{
+            width: 1200px;
+            padding: 82px 0 96px; 
+            .pricing_logo{
+                font-weight: 700;
+                font-size: 44px;
+                letter-spacing: 0.02em;
+                color: #555;
+                  margin-bottom: 83px;
+            }
+            .princing__info{
+                 .cards__starter{
+                    border: 2px solid var(--main-bg);
+                    border-radius: 11px;
+                    width: 402px;
+                    height: 556px;
+                    padding: 46px;
+                 } 
+            }
+        }
+ }
+ .meal{
+    .meal_contenir{
+        border: 3px solid peru;
+        display: flex;
+        justify-content: space-between;
+        width: 1140px;
+        margin: 0 auto;
+        .meal_info{
+            padding: 48px 64px 64px ; 
+            width: 760px;
+            box-shadow: 0 24px 48px 0 rgba(0, 0, 0, 0.15);
+           background: linear-gradient(135deg, #eb984e 0%, #e67e22 100%);
+           .meal_info_logo{
+            font-weight: 700;
+            font-size: 44px;
+            line-height: 100%;
+            color: #45260a;
+            margin-bottom: 32px;
+           }
+           .meal_logo{
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 180%;
+            color: #45260a;
+            margin-bottom: 48px;
+           }
+           .meal_input{
+            display: flex;
+            gap: 32px;
+            flex-wrap: wrap;
+            align-items: end;
+            .meal_inpud_name{
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 100%;
+                color: #45260a;
+                padding: 14px;
+                margin-bottom: 12px;
+            }
+            .meal_input_full{
+                padding: 14px;
+                border-radius: 9px;
+                font-size: 18px;
+                width: 300px;
+                border: none;
+                 outline: none;
+                 margin-top: 12px;
+                 
+            }
+           }
+        }
+    }
+ }
